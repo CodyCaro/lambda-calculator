@@ -3,8 +3,10 @@ import React from "react";
 //import any components needed
 
 //Import your array data to from the provided data file
+import numbers from "../../../data";
 
 const Numbers = () => {
+  console.log(numbers);
   // STEP 2 - add the imported data to state
   return (
     <div>
@@ -14,3 +16,5 @@ const Numbers = () => {
     </div>
   );
 };
+
+export default Numbers;
