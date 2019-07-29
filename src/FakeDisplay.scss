@@ -1,0 +1,16 @@
+.fake-display {
+  background-color: grey;
+  width: 75%;
+  margin: 25px auto;
+  border-radius: 33px;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  h3 {
+    font-size: 3rem;
+    color: white;
+    margin: 10px 0px 10px 84%;
+  }
+}
